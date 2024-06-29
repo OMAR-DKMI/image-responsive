@@ -1,0 +1,24 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-image: url("img/copa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+  
+
+/* Media query for mobile devices  */
+@media only screen and (max-width: 767px) {
+  body {
+      background-image: url("img/copa.jpg");
+
+  }
+}
